@@ -1,0 +1,33 @@
+/* Pesude Element*/
+
+p::first-line{
+    font-weight:bold;
+    color:darkred;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+p::first-letter{
+    font-size: 50px;
+
+}
+/*Pseudo Class*/
+
+ul li{
+    padding:10px;
+    margin-bottom:10px;
+
+}
+ul li:first-child{
+    background-color:crimson;
+}
+ul li:last-child{
+    background-color:blue;
+}
+
+a:visited{
+    color:palevioletred;
+} 
+a:hover {
+    color:red;
+}

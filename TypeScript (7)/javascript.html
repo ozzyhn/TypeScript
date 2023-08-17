@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body style="font-family: Verdana; font-size:16px;">
+    <h2>Elementin Niteliğini değiştirme</h2>
+    <input type="text" id="degisecek" value="bu bir veri grisi">
+    <button onclikc="degistir();">Degistir</button>
+    <script>
+        function degistir() {
+            document.getElementsByTagName('INPUT')['degisecek'].setAttribute('type', 'button');
+            document.getElementsByTagName('INPUT')['degisecek'].setAttribute('value', 'bu bir buton');
+        }
+    </script>
+
+</body>
+
+</html>
